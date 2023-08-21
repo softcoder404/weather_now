@@ -62,3 +62,6 @@ This project contain one(1) entry file main.dart and one major entry folder (src
 - Flutter
 - Dart
 
+### Demo
+<img src="https://github.com/softcoder404/weather_now/raw/main/assets/images/screen1.png" width="300" height="570">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/softcoder404/weather_now/raw/main/assets/images/screen2.png" width="300" height="570">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/softcoder404/weather_now/raw/main/assets/images/screen3.png" width="300" height="570">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/softcoder404/weather_now/raw/main/assets/images/screen4.png" width="300" height="570">
+
