@@ -1,16 +1,64 @@
-# weather_app
+# WeatherNow
 
-A new Flutter project.
+# About
+This repo contains the code serving the mobile application(android/iOS) for WeatherNow.
 
-## Getting Started
+# Project Structure
+This project contain one(1) entry file main.dart and one major entry folder (src folder)
+- main.dart
+- app.dart
+- dependency_injections.dart
+- themes
+  - colors.dart
+  - spacing.dart
+  - styles.dart
+  - themes.dart
+- routes
+  - app_navigator.dart
+  - routing_table.dart
+  - screen_view_observer.dart
+- core
+  - errors
+    - exceptions.dart
+    - failures.dart
+    - http_exceptions.dart
+  - interfaces
+    - http_request_interface.dart
+  - service
+    - http_service.dart
+    - network_info_services.dart
+  - typedefs
+    - api_response_type.dart
+    - network_response_type.dart
+  - usecase
+    - usecase.dart
+  - utils
+    - time_utils.dart
+  - features
+    - weather
+     - data
+      - model
+      - repository
+      - sources
+     - domain
+       - entities
+       - repositories
+       - usecases
+     - presentation
+       - blocs
+       - screens
+       - widgets
+    
+  
+# Running the project
+- clone the repo and cd into the project folder
+- run these command to start the project
+  - flutter clean
+  - flutter pub get
+  - flutter run --dart-define=apiKey={replace with your weatherapi key}
+### NB: Ensure you have flutter sdk already installed on your local machine. check flutter.dev for installation guides
 
-This project is a starting point for a Flutter application.
+# Technologies
+- Flutter
+- Dart
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
