@@ -13,7 +13,7 @@
             "program": "lib/main.dart",
             "args": [
                 "--dart-define",
-                "apiKey=dab2271be136445991d163309232108",
+                "apiKey=replace_with_your_key",
             ]
 
         },
